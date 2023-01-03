@@ -6,7 +6,7 @@
     pageEncoding="UTF-8"%>
 
 <%
-request.setCharacterEncoding("utf-8");
+/* request.setCharacterEncoding("utf-8");
 
 String num=request.getParameter("c");
 
@@ -21,5 +21,5 @@ int cnt=dao.delete(num);
 if(cnt>0){
 	System.out.print("삭제성공");
 	response.sendRedirect("notice.jsp");
-}
+} */
 %>
