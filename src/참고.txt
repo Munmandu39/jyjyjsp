@@ -1,0 +1,15 @@
+테이블을 변경 미션
+mvc1 변형
+ctrl+y
+
+web.xml에 셋팅
+	<servlet>
+  	<servlet-name>dispatcher</servlet-name>
+  	<servlet-class>notice.controller.MyDispatcher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dispatcher</servlet-name>
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+  -> 주소를 .do로 하면 MyDispatcher가 작동하겠다는 의미
