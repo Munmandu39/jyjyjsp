@@ -71,7 +71,7 @@
 <div>
 	<input type="hidden" name="c" value="${n.seq }" />
 	<input type="submit" value="수정" />
-	<a href="noticeDetail.jsp?c=${n.seq }">취소</a>
+	<a href="noticeDetail.do?c=${n.seq }">취소</a>
 </div>
 
 </form>
